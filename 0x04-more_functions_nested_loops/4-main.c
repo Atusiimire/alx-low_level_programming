@@ -9,6 +9,6 @@ int main(void)
 {
 char *str;
 str = "I believe in numbers and signs";
-print_rev(str);
+printf(str);
 return (0);
 }
