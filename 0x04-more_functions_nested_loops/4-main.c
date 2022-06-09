@@ -7,8 +7,6 @@
 
 int main(void)
 {
-char *str;
-str = "I believe in numbers and signs";
-printrev(str);
+print_most_numbers();
 return (0);
 }
