@@ -8,21 +8,18 @@
 
 int main(void)
 {
-unsigned long prime = 612852475143;
-unsigned long div = 2;
-while (div < (prime / 2))
+unsigned long num = 612852475143;
+unsigned long divisor = 2;
+while (divisor < num)
 {
-if ((prime % 2) == 0)
+if (num % divisor == 0)
 {
-prime /= 2;
-continue;
+num /= divisor;
+divisor = 2;
 }
-for (div = 3; div < (prime / 2); div += 2)
-{
-if ((prime % div) == 0)
-prime /= div;
+else
+divisor++;
 }
-}
-printf("%ld\n", prime);
+printf("%lu\n", num);
 return (0);
 }
