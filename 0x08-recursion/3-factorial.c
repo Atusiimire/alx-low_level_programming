@@ -8,11 +8,10 @@
 
 int factorial(int n)
 {
-int fac = 1;
+int factorial = 1;
 if (n < 0)
 return (-1);
-else if (!n)
+if (n <= 1)
 return (1);
-fac = factorial(n - 1);
-return (fac * n);
+return (n * factorial(n - 1));
 }
