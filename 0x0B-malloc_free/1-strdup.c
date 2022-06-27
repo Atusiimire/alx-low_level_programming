@@ -25,5 +25,5 @@ while (i <= count)
 *(pointer + i) = *(str + i);
 i++;
 }
-return (pointeur);
+return (pointer);
 }
