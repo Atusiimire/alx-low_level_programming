@@ -22,7 +22,7 @@ while (*(s1 + size1))
 size1++;
 while (*(s2 + size2))
 size2++;
-p = malloc((size1 + size2) + 1);
+p = malloc((size1 + size2)+1);
 if (p == NULL)
 return (NULL);
 i = 0;
