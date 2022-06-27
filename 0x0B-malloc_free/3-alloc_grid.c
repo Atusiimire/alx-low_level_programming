@@ -20,7 +20,6 @@ if (a == NULL)
 free(a);
 return (NULL);
 }
-}
 for (i = 0; i < height; i++)
 {
 a[i] = malloc(sizeof(int) * width);
@@ -32,6 +31,7 @@ free(a[j]);
 }
 free(a);
 return (NULL);
+}
 }
 for (k = 0; k < height; k++)
 {
