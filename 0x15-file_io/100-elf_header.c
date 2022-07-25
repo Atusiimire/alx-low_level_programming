@@ -36,6 +36,7 @@ dprintf(STDERR_FILENO, "Error: Not an ELF file\n");
 exit(98);
 }
 }
+}
 /**
  * print_magic - prints the magic numbers of an ELF header.
  * _ident: pointer to an array containing the ELF magic numbers.
