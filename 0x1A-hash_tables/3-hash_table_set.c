@@ -52,7 +52,7 @@ if (strcmp(tmp->key, key) == 0)
 {
 new_value = strdup(value);
 if (new_value == NULL)
-return(0);
+return (0);
 free(tmp->value);
 tmp->value = new_value;
 return (1);
