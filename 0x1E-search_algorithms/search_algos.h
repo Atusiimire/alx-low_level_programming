@@ -6,9 +6,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* helpers */
-void print_array(int *array, size_t inc, size_t size);
-
 /**
  * struct listint_s - singly linked list
  * @n: Integer
